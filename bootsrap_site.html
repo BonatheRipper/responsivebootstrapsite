@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BootStrap Site</title>
+	
+	
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	body{
+		font-family:sans-serif;
+	}
+
+			.navbar{
+	background-color: 
+	color: #FFF;
+	padding: 0.5% 0;
+	font-size: 1.2em;
+	margin-top: 0px;
+}
+.navbar-brand{
+	float: left;
+	min-height: 55px;
+}
+
+
+.item-active img{
+	height: 400px;
+	width: 100%;
+}
+.carousel-caption{
+	top:  50%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+
+}
+.btn{
+	font-size: 18px;
+	color: #FFF;
+	padding: 12px 12px;
+	background: #5E4485;
+	border: 1px solid white;
+}
+
+#icon{
+	max-width: 200px;
+	margin: 1% auto;
+	height: 200px;
+}  
+
+
+#icon{
+ transition: width 2s, height 2s, transform 2s;
+}
+#icon:hover{
+	-webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+}
+h4{
+	font-size: 30px;
+	font-family: fantasy;
+}
+#row{
+	margin-top: 20px;
+}
+#footer{
+	 position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#foot{
+
+	padding: 20px 20px;
+}
+</style>
+
+</head>
+<body>
+<nav  class="navbar navbar-inverse" style="margin-bottom: 0px; border-radius: 0px; position: sticky;">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Mynavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><b>Bona9ja</b></a></div>
+			<div class="collapse navbar-collapse" id="Mynavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Achieves</a></li>
+					<li><a href="#" >View Plans</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#" >Membership</a></li>
+				</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Carousel without slide-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 0px;"> <div class="carousel-inner" role="listbox">
+		<div class="item-active">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Western_Electric_Chicago.jpg"> 
+			<div class="carousel-caption">
+			<h1>Boostrap Example </h1>
+			<button class="btn btn-success">Continue</button>	
+			</div>
+		</div>
+</div>
+<!-- Carousel Ends-->
+
+<div class="container text-center">
+		<h2 style="border-radius: 30px; border: 3px solid grey;  padding: 8px 8px;  text-align: center; width: 400px; align-content: center; justify-content: center; margin: 0px auto; font-size: 25px; font-family: fantasy;" >What we're Learning</h2>
+	
+	
+	 <div class="row" id="row">
+	 	<div class="col-lg-4 col-xs-6">
+	 		<img id="icon" src="https://i2.wp.com/www.worldeatingdisordersday.org/wp-content/uploads/2016/03/css-logo.png" style="border: 10px solid black; border-radius: 25px" >
+	 		<h4>CSS</h4>
+	 	</div>
+	 	<div class=" col-lg-4 col-xs-6">
+	 		<img id="icon" src="http://chittagongit.com//images/bootstrap-icon-png/bootstrap-icon-png-28.jpg" style="border: 10px solid black; border-radius: 25px">
+	 		<h4>BOOSTRAP</h4>
+	 	</div>
+	 	<div class=" col-lg-4 col-xs-12">
+	 		<img id="icon"  src="https://onliner.ir/wp-content/uploads/2016/08/Flat-Long-Shadow-Programming-Language-Icon-Set.jpg" style="border: 10px solid black; border-radius: 25px">
+	 		<h4>HTML5</h4>
+	 	</div>
+	 </div>
+	 <hr>
+            <div class="container" style="text-align: center; justify-content: center; align-content: center;">
+	<div class="row" style="text-align: center; justify-content: center; align-content: center;">
+		<div class="col-md-6 col-lg-6 col-xm-12">
+			<h4 style="font-size: 25px; font-family: fantasy;"> Here's the cool thing about Bootstrap....</h4>
+			<p>  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<p>
+				 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+		</div>
+
+	<div class="col-md-6 col-lg-6  col-xm-12" style="text-align: center; justify-content: center; align-content: center;">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" class="img-responsive" style="border: 10px solid black">
+		
+	</div>
+</div>
+<hr style="color: black; height: 3px;">
+
+         <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<h4 style="font-size: 25px; font-family: fantasy;"> Here's the cool thing about Jquery....</h4>
+			<p>  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </p>
+		</div>
+
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<img id="icoon" src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/jquery-logo.jpg" class="img-responsive" style="border: 10px solid grey; border-radius: 10px; margin-top: 10px;">
+		
+	</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<h4 style="font-size: 25px; font-family: fantasy; "> Here's the cool thing about Javascript....</h4>
+			<p>  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </p>
+		</div>
+
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<img id="icoon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLda6Yxhi9lJrO39fTaxL-Rat7pw-B1SFR4JJB95RyJ31ZgmL7" style="border: 10px solid grey; border-radius: 10px; margin-top: 5px;">
+		
+	</div>
+</div>
+
+
+<!--Footer-->
+</div>
+<div id="footer" class="container" style="text-align: center;">
+	<div id="foot" class="row">
+		<span >Copyright 2018 Bona9ja</span>
+	</div>
+</div>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  crossorigin="anonymous">
+  </script>
+	<link rel="stylesheet" type="text/css" href="boot.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="boot.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</body>
+</html>
